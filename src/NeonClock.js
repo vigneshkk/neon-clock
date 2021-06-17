@@ -65,15 +65,15 @@ export class NeonClock extends LitElement {
     this.secondTag=document.createElement('div');
     this.secondTag.setAttribute("id","seconds");
     setInterval(()=>{
-      this.hours=(this.hours+1)%360;
+      this.hours=(this.hours+6)%360;
       this.changeInTime(this.hours,this.hourTag);
     },1000*60*60)
     setInterval(()=>{
-      this.minutes=(this.minutes+1)%360;
+      this.minutes=(this.minutes+6)%360;
       this.changeInTime(this.minutes,this.minuteTag);
     },1000*60)
     setInterval(()=>{
-      this.seconds=(this.seconds+1)%360;
+      this.seconds=(this.seconds+6)%360;
       this.changeInTime(this.seconds,this.secondTag);
     },1000)
   }

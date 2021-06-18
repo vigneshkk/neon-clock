@@ -1,6 +1,6 @@
 {
   "name": "neon-clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webcomponent neon-clock following open-wc recommendations",
   "author": "neon-clock",
   "license": "MIT",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-user/repo-url.git"
+    "url": "https://github.com/vigneshkk/neon-clock.git"
   },
   "dependencies": {
     "lit-html": "^1.4.1",

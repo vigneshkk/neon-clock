@@ -1,6 +1,6 @@
 {
   "name": "neon-clock",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Webcomponent neon-clock following open-wc recommendations",
   "author": "neon-clock",
   "license": "MIT",

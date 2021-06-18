@@ -3,7 +3,7 @@ import { html, css, LitElement } from 'lit-element';
 export class NeonClock extends LitElement {
   static get styles() {
     return css`
-    .circle{
+    #circle{
       height: 300px;
       width: 300px;
       background-color: blue;
@@ -80,7 +80,7 @@ export class NeonClock extends LitElement {
   
   render() {
     return html`
-      <div class="circle">   
+      <div id="circle">   
       ${this.hourTag}
       ${this.minuteTag}
       ${this.secondTag}
